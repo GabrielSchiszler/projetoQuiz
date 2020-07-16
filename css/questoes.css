@@ -1,0 +1,68 @@
+.backgroundInicial {
+  background: linear-gradient(270deg, #275587,#273a87) !important;
+  background-size: 100%;
+  height: 100vh;
+  width: 100vw;
+}
+.titlePrincipal {
+  font-size: 50px;
+  font-weight: 700;
+}
+.buttonHome {
+  border-radius: 40px;
+  border: none;
+  background-color: #FF33FB !important;
+  color: #fafafa;
+  padding: 10px 80px 10px 80px;
+  font-size: 25px;
+  font-weight: 700;
+}
+.textoQuestoes {
+  background-color: #fafafa;
+  border-radius: 40px;
+  padding: 10px 40px 10px 40px;
+  font-weight: 700;
+}
+.itens {
+  padding-top: 1vh;
+}
+.imgQuestion {
+  width: 250px;
+  height: 250px;
+}
+.question {
+  border: none;
+  border-radius: 40px;
+  padding: 10px 80px 10px 80px;
+  font-size: 13px;
+  width: 100%;
+  text-align: left;
+}
+.opcao {
+  border: none;
+  border-radius: 40px;
+  padding: 10px 80px 10px 80px;
+  font-size: 13px;
+  width: 100%;
+  text-align: left;
+  background-color: #fafafa;
+  border-radius: 40px;
+  padding: 10px 40px 10px 40px;
+}
+.inputResp {
+  border-radius: 40px;
+  background-color: #E4E4E4;
+  border: none;
+  user-select: none;
+  text-align: center;
+  margin-left: 20px;
+  text-transform: uppercase;
+}
+
+.question.correct {
+  background-color: green;
+}
+
+.question.wrong {
+  background-color: red;
+}
